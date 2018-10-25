@@ -1,0 +1,96 @@
+gap 15 15 15 15
+snapdist 4
+moveamount 5
+color activeborder "#4c7899"
+color inactiveborder "#333333"
+borderwidth 2
+
+sticky yes
+
+unbind-key all
+
+bind-key 4-Return terminal
+bind-key 4S-semicolon lock
+bind-key 4S-Return window-hide
+bind-key 4S-n window-menu-label
+bind-key 4S-q window-delete
+
+bind-key 4-1 group-only-1
+bind-key 4-2 group-only-2
+bind-key 4-3 group-only-3
+bind-key 4-4 group-only-4
+bind-key 4-5 group-only-5
+bind-key 4-6 group-only-6
+bind-key 4-7 group-only-7
+bind-key 4-8 group-only-8
+bind-key 4-9 group-only-9
+bind-key 4S-1 window-movetogroup-1
+bind-key 4S-2 window-movetogroup-2
+bind-key 4S-3 window-movetogroup-3
+bind-key 4S-4 window-movetogroup-4
+bind-key 4S-5 window-movetogroup-5
+bind-key 4S-6 window-movetogroup-6
+bind-key 4S-7 window-movetogroup-7
+bind-key 4S-8 window-movetogroup-8
+bind-key 4S-9 window-movetogroup-9
+bind-key 4-a group-toggle-all
+bind-key 4-g window-group
+
+bind-key 4S-f window-freeze
+bind-key 4-s window-stick
+bind-key 4-f window-fullscreen
+bind-key 4S-m window-maximize
+bind-key 4-equal window-vmaximize
+bind-key 4S-equal window-hmaximize
+bind-key 4-backslash window-vtile
+bind-key 4S-backslash window-htile
+
+bind-key 4-d menu-exec
+bind-key 4-slash menu-window
+bind-key 4-Right group-cycle
+bind-key 4-Left group-rcycle
+bind-key 4-Down window-lower
+bind-key 4-Up window-raise
+bind-key 4-Tab window-cycle-ingroup
+bind-key 4S-Tab window-rcycle-ingroup
+
+bind-key 4CS-h window-resize-left
+bind-key 4CS-j window-resize-down
+bind-key 4CS-k window-resize-up
+bind-key 4CS-l window-resize-right
+bind-key 4S-h window-resize-left-big
+bind-key 4S-j window-resize-down-big
+bind-key 4S-k window-resize-up-big
+bind-key 4S-l window-resize-right-big
+
+bind-key 4C-h window-move-left
+bind-key 4C-j window-move-down
+bind-key 4C-k window-move-up
+bind-key 4C-l window-move-right
+bind-key 4-h window-move-left-big
+bind-key 4-j window-move-down-big
+bind-key 4-k window-move-up-big
+bind-key 4-l window-move-right-big
+
+bind-key 4-F1 window-snap-left
+bind-key 4-F2 window-snap-down
+bind-key 4-F3 window-snap-up
+bind-key 4-F4 window-snap-right
+
+bind-key 4S-F1 window-snap-up-left
+bind-key 4S-F2 window-snap-down-left
+bind-key 4S-F3 window-snap-up-right
+bind-key 4S-F4 window-snap-down-right
+
+bind-key 4C-w menu-exec-wm
+
+bind-key M-equal "vol up"
+bind-key M-minus "vol down"
+bind-key M-0	 "vol toggle"
+
+unbind-mouse all
+bind-mouse 4S-1 window-group
+bind-mouse 4-1 window-move
+bind-mouse 4-3 window-resize
+bind-mouse 4-2 window-lower
+bind-mouse 4S-3 window-hide
